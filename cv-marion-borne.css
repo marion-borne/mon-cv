@@ -1,0 +1,56 @@
+@font-face{
+    font-family: 'Zabal-Light';
+    src: url('/font/Zabal-Light.otf')
+}
+@font-face{
+    font-family: 'Zabal-ExtraBold';
+    src: url('/font/Zabal-ExtraBold.otf')
+}  
+body, h1, h2, p{
+    margin: 0;
+    font-family: 'Zabal-light';
+    color: rgb(26, 26, 186);
+}
+header{
+    background-color: white;
+    padding: 10px ;
+    font-family: 'Zabal-ExtraBold';
+    font-size: x-large;
+}
+.informations-personnelles{
+    background-color:white ;
+    padding: 10px;
+    font-family: 'Zabal-light' ; 
+}
+.objectif{
+    background-color: rgb(244, 223, 201);
+    padding : 10px ;
+    font-family: 'Zabal-light' ;
+
+}
+.expériences{
+    background-color: rgb(244, 223, 201);
+    padding: 10px ;
+    font-family: 'Zabal-light' ;
+}
+.formations{
+    background-color: white;
+    padding: 10px ;
+    font-family: 'Zabal-light' ;
+}
+.compétences{
+    background-color: rgb(26, 26, 186);
+    padding: 10px ;
+    font-family: 'Zabal-light' ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    }
+
+img{
+  
+    height: 100px; 
+    object-fit: contain;
+
+}
+    
